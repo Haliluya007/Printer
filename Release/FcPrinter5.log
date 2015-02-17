@@ -1,0 +1,32 @@
+﻿Build started 2014/9/11 11:45:52.
+     1>Project "E:\VSTest\FcPrinter5\FcPrinter5\FcPrinter5.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\FcPrinter5.tlog\FcPrinter5.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\FcPrinter5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\FcPrinter5.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\FcPrinter5.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt sysitem32\ProcessOperator.cpp FcPrinter5.cpp sysitem32\Reader_SysListView32.cpp
+         ProcessOperator.cpp
+         FcPrinter5.cpp
+         Reader_SysListView32.cpp
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Release\FcPrinter5.res" FcPrinter5.rc 
+       Link:
+         E:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VSTest\FcPrinter5\Release\FcPrinter5.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Program Files\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\VSTest\FcPrinter5\Release\FcPrinter5.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VSTest\FcPrinter5\Release\FcPrinter5.lib" /MACHINE:X86 /SAFESEH Release\FcPrinter5.res
+         Release\ProcessOperator.obj
+         Release\FcPrinter5.obj
+         Release\stdafx.obj
+         Release\Reader_SysListView32.obj
+         Generating code
+         Finished generating code
+         FcPrinter5.vcxproj -> E:\VSTest\FcPrinter5\Release\FcPrinter5.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\FcPrinter5.tlog\unsuccessfulbuild".
+         Touching "Release\FcPrinter5.tlog\FcPrinter5.lastbuildstate".
+     1>Done Building Project "E:\VSTest\FcPrinter5\FcPrinter5\FcPrinter5.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.35
